@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Caveat:wght@400..700&family=Noto+Serif+Hentaigana:wght@200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+header{
+    background-color: rgb(190, 243, 250);
+
+    text-align: center;
+    font-family: 'Caveat';
+    font-size: 60px;
+}
+.menu{
+    backdrop-filter: blur(10px  );
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+
+}
+
+.item-menu{
+    font-size: 20px;
+    margin-left: 7%;
+    padding: 1%;
+}
+
+.banner{
+    height: 5%;
+
+}
+
+.img-banner{
+    width: 100%;
+    height: 650px;
+}
