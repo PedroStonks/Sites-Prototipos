@@ -1,8 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Caveat:wght@400..700&family=Noto+Serif+Hentaigana:wght@200..900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,15 +10,20 @@
 
 
 
-header{
-    background-color: rgb(190, 243, 250);
+header {
+
 
     text-align: center;
     font-family: 'Caveat';
-    font-size: 60px;
+    font-size: 24px;
 }
-.menu{
-    backdrop-filter: blur(10px  );
+
+h1 {
+    font-family: 'Caveat';
+}
+
+.menu {
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -27,18 +31,105 @@ header{
 
 }
 
-.item-menu{
+.item-menu {
     font-size: 20px;
     margin-left: 7%;
     padding: 1%;
 }
 
-.banner{
-    height: 5%;
+/* From Uiverse.io by alexruix */
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+    margin-left: 8%;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: rgba(234, 76, 137, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
 
 }
 
-.img-banner{
+.Banner h2 {
+    margin-left: 25%;
+    margin-top: 10%;
+    position: absolute;
+
+
+    color: white;
+    word-wrap: break-word; /* Permite quebra de palavras longas */
+    white-space: normal; /* Garante que o texto quebre em várias linhas */
+    max-width: 50%; /* Ajusta para evitar que o texto fique muito longo */
+    font-size: 3rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fundo escuro semi-transparente */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.img-banner {
     width: 100%;
     height: 650px;
+}
+
+.text1{
+    color: rgb(61, 61, 61);
+    background-color: #9e9ea7;
+
+    
+    margin: 8%;
+
+}
+
+p{
+    font-size: 24px;
+    font-family: ;
 }
