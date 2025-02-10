@@ -22,7 +22,7 @@ body{
 
 header {
 
-
+    backdrop-filter: blur(10px);
     text-align: center;
     font-family: 'Caveat';
     font-size: 24px;
@@ -137,14 +137,14 @@ input:hover {
 .banner {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 500px;
     /* Ajuste a altura conforme necessário */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 10px;
 
 
 }
@@ -152,13 +152,13 @@ input:hover {
 .Banner h2 {
 
     position: absolute;
-    top: 70%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80%;
     text-align: center;
-    font-size: 2.5rem;
-    background: rgba(0, 0, 0, 0.6);
+    font-size: 3.5rem;
+
     color: white;
     padding: 15px;
     border-radius: 10px;
@@ -167,7 +167,7 @@ input:hover {
 
 .img-banner {
     width: 100%;
-    height: 650px;
+    height: 730px;
 }
 
 .conteudo{
@@ -180,7 +180,7 @@ input:hover {
 
 .text1{
     color: rgb(61, 61, 61);
-    background-color: rgba(158, 158, 167, 0.5);
+
     padding: 20px;
     border-radius: 10px;
     max-width: 90%; /* Ajusta para telas menores */
@@ -242,6 +242,55 @@ p{
 }
 
 .img-itens{
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
+}
+
+.conteudo2{
+    margin-top: 1%;
+    align-items: center;
+}
+
+.text2{
+    color: rgb(61, 61, 61);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%; /* Ajusta para telas menores */
+    width: 100%;
+    
+    margin-top: 20%;
+    text-align: justify;
+    margin-left: 20%;
+    align-items: center;
+
+}
+
+.img-itens2{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 5%;
+
+}
+
+/* Ajuste para telas maiores (768px ou mais) */
+@media (min-width: 768px) {
+    .conteudo2 {
+        flex-direction: row; /* Alinha texto e imagem lado a lado */
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .text2 {
+        max-width: 90%; /* Reduz a largura do texto */
+        margin-left: 5%;
+        margin: 5%;
+    }
+
+    .img-itens2 {
+        width: 50%; /* Define um tamanho fixo para a imagem lateral */
+        height: 80%;
+        margin-left: 5%;
+
+    }
 }
