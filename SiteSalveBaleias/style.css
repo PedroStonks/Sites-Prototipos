@@ -152,7 +152,7 @@ input:hover {
 .Banner h2 {
 
     position: absolute;
-    top: 40%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 80%;
@@ -247,7 +247,7 @@ p{
 }
 
 .conteudo2{
-    margin-top: 1%;
+    margin-top: 1px;
     align-items: center;
 }
 
@@ -270,6 +270,7 @@ p{
     height: 500px;
     border-radius: 20px;
     margin: 5%;
+    
 
 }
 
@@ -290,7 +291,7 @@ p{
     .img-itens2 {
         width: 50%; /* Define um tamanho fixo para a imagem lateral */
         height: 80%;
-        margin-left: 5%;
+        margin-left: 28%;
 
     }
 }
