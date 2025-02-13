@@ -173,6 +173,7 @@ input:hover {
 }
 
 .conteudo{
+    background-color: #5352523a;
     display: flex;
     flex-direction: column; /* Padrão para telas menores */
     align-items: center;
@@ -278,6 +279,10 @@ p{
 
 
 
+
+
+
+
 /*Ajuste para os itens do menu ficarem ajustados bem em telas menores como de celulares*/
 @media (max-width: 575.56px) {
     .menu{
@@ -316,19 +321,21 @@ p{
 }
 
 .conteudo2{
+    flex-direction: column;
     margin-top: 1px;
-    align-items: center;
+    display: flex;
+    background-color: #0066cc;
 }
 
 .text2{
     color: rgb(61, 61, 61);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 90%; /* Ajusta para telas menores */
 
+    border-radius: 10px;
+    max-width: 100%; /* Ajusta para telas menores */
+    text-align: start;
     text-align: justify;
-    margin-left: 5%;
-    align-items: center;
+    margin-right: 50%;
+
 
 }
 
@@ -337,6 +344,9 @@ p{
     height: 350px;
     border-radius: 10px;
     margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     
 
 }
@@ -344,21 +354,23 @@ p{
 /* Ajuste para telas maiores (768px ou mais) */
 @media (min-width: 768px) {
     .conteudo2 {
-        flex-direction: row; /* Alinha texto e imagem lado a lado */
+        flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+
     }
 
     .text2 {
         max-width: 50%; /* Reduz a largura do texto */
-        
-        margin: 1%;
+        margin-left: 8%;
     }
 
     .img-itens2 {
-        width: 50%; /* Define um tamanho fixo para a imagem lateral */
+        width: 80%; /* Define um tamanho fixo para a imagem lateral */
         height: 80%;
-        margin-left: 28%;
-
+        margin-left: 8%;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }
+
+
