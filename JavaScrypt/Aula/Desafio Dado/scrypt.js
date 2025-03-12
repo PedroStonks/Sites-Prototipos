@@ -30,7 +30,7 @@ function dados_organizadados() {
     index_10.innerText = dados.indexOf(10);
 
     /* // Exibe o array ordenado
-    alert("Dados ordenados: " + dados.join(", "));
+    alert("Dados ordenados: " + dados.join(","));
     
     // Exibe a quantidade de dados inseridos pelo usuário 
     alert("Você digitou " + quantidade + " números.");
