@@ -147,6 +147,7 @@ input:hover {
     flex-wrap: wrap; /* Permite que os elementos dentro quebrem linha */
     color: white;
     padding: 10px;
+    border-radius: 10%;
 
 
 }
@@ -170,6 +171,7 @@ input:hover {
 .img-banner {
     width: 100%;
     height: 730px;
+    border-radius: 20px;
 }
 
 .conteudo{
@@ -252,7 +254,7 @@ p{
 
     .Banner h2 {
         background-color: #3636366b;
-        top: 108%;
+        top: 80%;
         font-size: 34px; /* Reduz o tamanho da fonte */
         max-width: 90%; /* Impede que o texto fique muito largo */
         line-height: 1.5; /* Aumenta o espaçamento para melhor leitura */
