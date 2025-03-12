@@ -10,19 +10,18 @@ function carregar(){
 
     if (hora >= 0 && hora <= 5) {
         horas.innerText = `Boa madrugada, agora são ${hora} hora ${minuto} min!`
-        img.src = 'Paisage madrugada'
+        img.style.backgroundImage = src="image/Madrugada.jpg"
         corpo.style.backgroundColor = '#20100D'
     } else if (hora < 12) {
         horas.innerText = `Bom dia, agora são ${hora} hora ${minuto} min!`
-        img.src = 'manha.jpg'
-        corpo.style.backgroundColor = '#33949B'
+        img.style.backgroundImage = src="image/Manha.jpg"
     } else if (hora < 18) {
         horas.innerText = `Boa tarde, agora são ${hora} hora ${minuto} min!`
-        img.src = 'tarde.jpg'
+        img.style.backgroundImage = src="image/Tarde.jpg"
         corpo.style.backgroundColor = '#C95E00'
     } else {
         horas.innerText = `Boa noite, agora são ${hora} hora ${minuto} min!`
-        img.src = 'noite.jpg'
+        img.style.backgroundImage = src="image/Noite.jpg"
         corpo.style.backgroundColor = '#19375D'
     }
 }
