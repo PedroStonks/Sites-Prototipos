@@ -9,7 +9,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #d5e2e7;
-    background-image: url(https://images8.alphacoders.com/666/thumb-1920-666031.png);
+    background-image: url(https://images8.alphacoders.com/666/thumb-1920-666031.png) ;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@ nav.menu-lateral {
 
 nav.menu-lateral:hover {
     width: 300px;
+   
 }
 
 ul {
