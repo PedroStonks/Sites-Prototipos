@@ -18,6 +18,11 @@ body{
  
 }
 
+.logo{
+    display: flex;
+    justify-items: flex-start;
+
+}
 
 
 header {
