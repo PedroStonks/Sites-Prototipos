@@ -25,79 +25,12 @@ p{
     font-size: 24px;
 }
 
-/* From Uiverse.io by boryanakrasteva */ 
-.input-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-
-  }
-  
-  .input {
-    margin-left: 74%;
-    border-style: none;
-    height: 50px;
-    width: 50px;
-    padding: 10px;
-    outline: none;
-    border-radius: 50%;
-    transition: .3s ease-in-out;
-    background-color: #7e4fd4;
-    box-shadow: 0px 0px 3px #f3f3f3;
-    padding-right: 40px;
-    color: #f5f2f2;
-  }
-  
-  .input::placeholder,
-  .input {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 17px;
-  }
-  
-  .input::placeholder {
-    color: #fcf9f9;
-  }
-  
-  .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 100px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    outline: none;
-    border-style: none;
-    border-radius: 50%;
-    pointer-events: painted;
-    background-color: transparent;
-    transition: .2s linear;
-  }
-  
-  .icon:focus ~ .input,
-  .input:focus {
-    box-shadow: none;
-    width: 250px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom: 3px solid #7e4fd4;
-    transition: all 300ms cubic-bezier(0, 0.110, 0.35, 2);
-  }
-  
-  
-  
-
-
-
-
 
 nav.menu-lateral{
-    width: 40px;
+    width: 30px;
     height: 100%;
     background-color:#0f0f0f;
-    padding: 40px 37px 0px 1%;
+    padding: 45px 35px 0px 1%;
     position: fixed;
     top: 0;
     left: 0;
@@ -105,6 +38,8 @@ nav.menu-lateral{
     transition: .2s;
     z-index: 1000;
 }
+
+
 
 
 .bnt-expandir{
@@ -154,35 +89,73 @@ ul li.item-menu a .txt-link{
     margin-left: 17px;
 }
 
-ul li.item-menu a .icon > i{
-    font-size: 40px;
+ul li.item-menu a .Icon > i{
+    font-size: 25px;
 }
+
+
+
+
+.genero{
+    display: inline;
+    justify-content: center;
+}
+.genero button {
+    margin: 5px 10PX;
+    padding: 8px 6px;
+    border: none;
+    border-radius: 15px;
+    background-color: #89068d;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.genero button:hover {
+    background-color: #5917a4;
+}
+
+  
 
 
 .swiffy-slider{
-    margin-top: 10%;
-    max-height: 30%;
-    display: flex;
+    padding: 0%;
+    margin-top: 1%;
+    margin: 5%;
 
+    --swiffy-slider-item-count: 3;
+    --swiffy-slider-item-gap: 1rem;
+    --swiffy-slider-animation-duration: 0.5s;
+    --swiffy-slider-nav-zoom: 10.2;
+}
+
+.img-slider{
+    display: inline-flex;
+    max-width: 30%;
+    max-height: 20%;
+    border-radius: 10px;
+
+}
+
+.caption{
+    align-items: center;
+    color: #f7fafa;
+    background-color: #4b4949bd;
+    border-radius: 10PX;
+    max-width: 5%;
+    margin-left: 47%;
+}
+
+
+.slider-nav{
+    color: #5917a4;
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:768px){ /* Telas Maiores some o menu Hamburguer e colocam o menu lado a lado */
-    i#burguer{
-        display: none;
-    }
-   menu > ul > li{
-        display: inline-block;
-    }
+.slider-nav-next{
+color: #89068d;
 }
+
+
