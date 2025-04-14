@@ -18,8 +18,25 @@ body{
 
 header{
     display: flex;
-    justify-content: center;
+    justify-self: start;
+    margin: 2.5%;
+    
 }
+
+
+.Logo-header{
+    background-color: #89068d;
+    flex-wrap: wrap;
+
+}
+
+.icon-header{margin-right: 150%;
+    display: inline-flex;
+    justify-self: flex-start;
+    background-color: #f7fafa;
+    flex-wrap: wrap;
+}
+
 
 p{
     font-size: 24px;
