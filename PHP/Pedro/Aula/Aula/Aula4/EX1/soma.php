@@ -17,7 +17,7 @@
 
 
 
-    //echo 'Seu Resultado: ' . round($soma, 2) . '</br>';
+    echo 'Seu Resultado: ' . round($soma, 2) . '</br>';
 
     if ($soma > $multiplicacao) {
         echo 'A+C é maior que B+D';
